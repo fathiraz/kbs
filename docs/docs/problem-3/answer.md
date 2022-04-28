@@ -36,6 +36,11 @@ DEFAULT_OWNER=Ainun
 	There are 4 cakes and 5 apples in each box.
     ```
 
+## Test
+```bash
+go test ./... -v
+```
+
 ## Source code
 
 You can check the source code right here **https://github.com/fathiraz/kbs/tree/main/fpb**
