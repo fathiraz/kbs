@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: 'Kitabisa test documentation',
 	tagline: 'Kitabisa test',
-	url: 'https://your-docusaurus-test-site.com',
+	url: 'https://fathiraz.github.io/kbs/doc',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
