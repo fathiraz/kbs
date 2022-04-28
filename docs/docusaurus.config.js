@@ -13,7 +13,7 @@ const config = {
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon_ktbs.ico',
-	organizationName: 'fathiraz.github.io', // Usually your GitHub org/user name.
+	organizationName: 'fathiraz', // Usually your GitHub org/user name.
 	projectName: 'kbs', // Usually your repo name.
 	presets: [
 		[
