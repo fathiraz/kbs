@@ -38,4 +38,4 @@ DEFAULT_OWNER=Ainun
 
 ## Source code
 
-You can check the source code right here **https://github.com/fathiraz/kbs/fpb**
+You can check the source code right here **https://github.com/fathiraz/kbs/tree/main/fpb**
