@@ -13,3 +13,13 @@ func StringToUint64(str string) (result uint64) {
 
 	return
 }
+
+// StringToBool to set string to bool
+func StringToBool(str string) (result bool) {
+	convert, err := strconv.ParseBool(str)
+	if err == nil {
+		result = convert
+	}
+
+	return
+}

@@ -26,8 +26,8 @@ func ParseEnv() {
 
 	env = Environment{
 		DefaultOwner:  os.Getenv("DEFAULT_OWNER"),
-		DefaultApples: helper.StingToUint64(os.Getenv("DEFAULT_APPLES")),
-		DefaultCakes:  helper.StingToUint64(os.Getenv("DEFAULT_CAKES")),
+		DefaultApples: helper.StringToUint64(os.Getenv("DEFAULT_APPLES")),
+		DefaultCakes:  helper.StringToUint64(os.Getenv("DEFAULT_CAKES")),
 	}
 }
 

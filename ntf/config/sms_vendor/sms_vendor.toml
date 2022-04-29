@@ -1,0 +1,26 @@
+[sms_vendor_kita]
+name = "sms_vendor_kita"
+url = "https://626a3f7053916a0fbdf7c364.mockapi.io"
+endpoint = "/vendor_sms_kita"
+token = "Basic abc123def456"
+is_default = false
+is_active = false
+timeout = "30s"
+
+[sms_vendor_bisa]
+name = "sms_vendor_bisa"
+url = "https://626a3f7053916a0fbdf7c364.mockapi.io"
+endpoint = "/vendor_sms_bisa"
+token = "Token abc123def456"
+is_default = false
+is_active = false
+timeout = "30s"
+
+[sms_vendor_kitabisa]
+name = "sms_vendor_kitabisa"
+url = "https://626a3f7053916a0fbdf7c364.mockapi.io"
+endpoint = "/vendor_sms_kitabisa"
+token = "Auth abc123def456"
+is_default = true
+is_active = true
+timeout = "30s"
