@@ -2,6 +2,9 @@
 sidebar_label: Answer
 sidebar_position: 1
 ---
+
+# Answer
+
 <p align="center">
   <img width="150" height="174" src="https://raw.githubusercontent.com/fathiraz/kbs/main/ntf/logo.png"/>
 </p>
