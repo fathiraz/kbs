@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "6ba3826e-ae3e-4ca1-b52c-05cc350c6428",
+		"name": "Kitabisa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{url}}/v1/sms/send",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{basic_password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{basic_username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\" : \"6287885267892\",\n\t\"message\" : \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/v1/sms/send",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"v1",
+						"sms",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/v1/sms/toggle",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{basic_password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{basic_username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"sms_vendor_kita\",\n\t\"toggle\" : true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/v1/sms/toggle",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"v1",
+						"sms",
+						"toggle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/v1/sms",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{basic_password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{basic_username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/v1/sms",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"v1",
+						"sms"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
